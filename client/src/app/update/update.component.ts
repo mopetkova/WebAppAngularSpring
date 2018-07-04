@@ -48,8 +48,6 @@ export class UpdateComponent implements OnInit {
     this.location.back();
   }
 
-
-
   //TODO
 
   addEmployee(name: string): void {
@@ -67,11 +65,7 @@ export class UpdateComponent implements OnInit {
 
   }
 
-
   // UTILS
-
-
-
   stampa(msg: string){
     console.log(msg);
   }
