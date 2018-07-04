@@ -1,0 +1,16 @@
+<h2> CRUD </h2>
+<h1>{{title}}</h1>
+
+<ul>
+  <li *ngFor="let e of employees">
+    {{e.id}} - {{e.name}}
+    <button (click)="updateEmployee(e); e.value=''">Edit</button>
+    <button (click)="deleteEmployee(e); e.value=''">Delete</button>
+  </li>
+</ul>
+
+<!--<label>Name:-->
+  <!--<input #employeeName />-->
+<!--</label>-->
+
+<!--<button (click)="addEmployee(employeeName.value); employeeName.value=''">Add</button>-->
